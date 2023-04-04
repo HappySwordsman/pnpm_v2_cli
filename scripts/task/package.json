@@ -1,0 +1,20 @@
+{
+  "name": "@scripts/task",
+  "version": "1.0.0",
+  "files": [
+    "index.js"
+  ],
+  "bin": {
+    "task": "./index.js"
+  },
+  "dependencies": {
+    "@tnnevol/alioss": "^1.0.2",
+    "@tnnevol/deploy-cli-service": "^2.0.0",
+    "@tnnevol/robot-ding": "^5.1.0",
+    "dedent": "^0.7.0",
+    "fs-extra": "^10.1.0",
+    "inquirer": "^8.1.1",
+    "js-yaml": "^4.1.0",
+    "tasksfile": "^5.1.1"
+  }
+}

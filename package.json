@@ -3,6 +3,11 @@
   "version": "1.0.0",
   "description": "pnpm 管理的 monorepo 脚手架",
   "scripts": {
+    "bootstrap": "pnpm install",
+    "start": "task start --doc",
+    "build": "task build --doc",
+    "turbo:start": "turbo run start --parallel",
+    "turbo:build": "turbo run build --parallel",
     "prepare": "husky install",
     "manypkg:check": "manypkg check"
   },
@@ -12,6 +17,7 @@
     "@commitlint/config-conventional": "^17.4.4",
     "@configs/lint": "workspace:*",
     "@manypkg/cli": "^0.20.0",
+    "@scripts/task": "workspace:*",
     "@vue/cli-plugin-babel": "~5.0.0",
     "@vue/cli-plugin-eslint": "~5.0.0",
     "@vue/cli-plugin-pwa": "~5.0.0",
@@ -22,6 +28,7 @@
     "husky": "^8.0.3",
     "lint-staged": "^11.1.2",
     "prettier": "^2.4.1",
+    "turbo": "^1.8.8",
     "webpack": "^5.77.0"
   },
   "engines": {
