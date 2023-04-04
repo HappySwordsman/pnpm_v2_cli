@@ -1,0 +1,34 @@
+{
+  "name": "@happy_swordsman/pnpm_v2_cli",
+  "version": "1.0.0",
+  "description": "pnpm 管理的 monorepo 脚手架",
+  "scripts": {
+    "prepare": "husky install"
+  },
+  "dependencies": {
+    "@babel/core": "^7.12.16",
+    "@commitlint/cli": "^17.4.4",
+    "@commitlint/config-conventional": "^17.4.4",
+    "@configs/lint": "workspace:*",
+    "@vue/cli-plugin-babel": "~5.0.0",
+    "@vue/cli-plugin-pwa": "~5.0.0",
+    "@vue/cli-plugin-eslint": "~5.0.0",
+    "@vue/cli-plugin-router": "~5.0.0",
+    "@vue/cli-plugin-vuex": "~5.0.0",
+    "@vue/cli-service": "~5.0.0",
+    "eslint": "^7.32.0",
+    "husky": "^8.0.3",
+    "lint-staged": "^11.1.2",
+    "prettier": "^2.4.1"
+  },
+  "engines": {
+    "node": ">= 16"
+  },
+  "packageManager": "pnpm@7.1.0",
+  "keywords": [
+    "tnnevol",
+    "pnpm"
+  ],
+  "author": "tnnevol",
+  "license": "ISC"
+}
