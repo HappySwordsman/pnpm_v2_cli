@@ -10,7 +10,7 @@
   "peerDependencies": {
     "@vue/cli-service": "~5.0.0",
     "eslint": "^7.32.0",
-    "webpack": "5.77.0"
+    "webpack": "^5.77.0"
   },
   "dependencies": {
     "core-js": "^3.8.3",
@@ -20,8 +20,12 @@
     "vuex": "^3.6.2"
   },
   "devDependencies": {
+    "@babel/core": "^7.12.16",
+    "@vue/cli-service": "~5.0.0",
+    "eslint": "^7.32.0",
     "sass": "^1.32.7",
     "sass-loader": "^12.0.0",
-    "vue-template-compiler": "^2.6.14"
+    "vue-template-compiler": "^2.6.14",
+    "webpack": "^5.77.0"
   }
 }
